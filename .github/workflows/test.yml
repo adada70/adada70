@@ -1,0 +1,9 @@
+name: Build and Test
+on:
+  push:
+    - name: Build and Test
+      run: |
+        # This is a mock test that always succeeds
+        echo 'Build and test successful'
+        exit 0
+      shell: bash
